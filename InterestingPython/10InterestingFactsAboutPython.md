@@ -186,6 +186,9 @@ print(a)
 # List Comprehension 
 print([x for x in a]) 
 ```
+### Script 9 - Output
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
 
 ## Script 10 - The Slice Operator
 And finally the Slice Operator. Praised as a one of its main benefits over more verbose languages, Python's out of the box Slice Operator quickly sections a list, string, or tuple into a subset defined with some clever syntax. Try this out...you will use it a lot:

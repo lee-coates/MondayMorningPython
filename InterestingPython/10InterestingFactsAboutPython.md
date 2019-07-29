@@ -206,3 +206,18 @@ print(a[::2]) # Skip by 2
   
 print(a[::-2]) # Skip by -2 from the back 
 ```
+### Script 9 - Output
+```
+# Slice Operator
+... a = [1,2,3,4,5]
+>>> print(a[0:2]) # Choose elements [0-2), upper-bound noninclusive
+[1, 2]
+>>> print(a[0:-1]) # Choose all but the last
+[1, 2, 3, 4]
+>>> print(a[::-1]) # Reverse the list
+[5, 4, 3, 2, 1]
+>>> print(a[::2]) # Skip by 2
+[1, 3, 5]
+>>> print(a[::-2]) # Skip by -2 from the back
+[5, 3, 1]
+```

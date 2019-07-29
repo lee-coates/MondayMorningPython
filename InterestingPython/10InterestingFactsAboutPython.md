@@ -60,6 +60,11 @@ print("2nd Case:")
 a = [1] 
 func(a)
 ```
+### Script 3 - Outpu
+1st Case:
+2
+2nd Case:
+No call for Break. Else is executed
 
 ## Script 4 - All Reference, No Pointers
 The GeeksForGeeks article points out an important distinction--In Python, everything is done by reference. For a deeper understanding on what this means, I'd *reference* this amazing [StackOverflow Discussion](https://stackoverflow.com/questions/373419/whats-the-difference-between-passing-by-reference-vs-passing-by-value).

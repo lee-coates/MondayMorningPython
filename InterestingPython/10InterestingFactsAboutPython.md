@@ -81,6 +81,13 @@ bar_dict = {'y': 3, 'x': 2}
 point(*foo_list) # Unpacking Lists 
 point(**bar_dict) # Unpacking Dictionaries 
 ```
+### Script 5 - Output
+```
+>>> point(*foo_list) # Unpacking Lists
+3 4
+>>> point(**bar_dict) # Unpacking Dictionaries
+2 3
+```
 
 ## Script 6 - Enumerate
 Enumeration is the concept of going through a collection of items one by one. Python can do that:

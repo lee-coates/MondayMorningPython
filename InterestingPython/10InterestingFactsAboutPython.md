@@ -81,6 +81,13 @@ bar_dict = {'y': 3, 'x': 2}
 point(*foo_list) # Unpacking Lists 
 point(**bar_dict) # Unpacking Dictionaries 
 ```
+### Script 5 - Output
+```
+>>> point(*foo_list) # Unpacking Lists
+3 4
+>>> point(**bar_dict) # Unpacking Dictionaries
+2 3
+```
 
 ## Script 6 - Enumerate
 Enumeration is the concept of going through a collection of items one by one. Python can do that:
@@ -90,7 +97,14 @@ vowels=['a','e','i','o','u']
 for i, letter in enumerate(vowels): 
     print (i, letter) 
 ```
-
+### Script 6 - Output
+```
+0 a
+1 e
+2 i
+3 o
+4 u
+```
 ## Script 7 - Chaining Comparison Operators
 Python is written to be very readable, even when speaking in the language of mathematics. Take comparison operators for example--Humans commonly chain these operations, so why not in our programs too!
 ```
@@ -105,6 +119,20 @@ print(ans)
   
 ans = 5 == i 
 print(ans) 
+```
+
+### Script 7 - Output
+```
+>>> i = 5;
+>>> ans =1 < i < 10
+>>> print(ans)
+True
+>>> ans = 10 > i <= 9
+>>> print(ans)
+True
+>>> ans = 5 == i
+>>> print(ans)
+True
 ```
 
 ## Script 8 - Python "Knows" Infinity
@@ -125,6 +153,26 @@ if -99999999999999 < n_infinity:
 else: 
     print("Negative Infinity is least") 
 ```
+### Script 8 - Output
+```
+# Postive Infinity
+... p_infinity = float('Inf')
+>>> if 99999999999999 > p_infinity:
+...    print("The number is greater than Postive Infinity!")
+... else:
+...     print("Infinity is greatest")
+...
+Infinity is grestest
+>>>
+# Negative Infinity
+>>> n_infinity = float('-Inf')
+>>> if -99999999999999 < n_infinity:
+...    print("The number is lesser than Negative Infinity!")
+... else:
+...     print("Negative Infinity is least")
+...
+Negative Infinity is least
+```
 
 ## Script 9 - List Comprehensions
 Saving the best for last...these next two are core to the language itself. First, List Comprehensions--say goodbye to multi-line for loops :grin:
@@ -138,6 +186,9 @@ print(a)
 # List Comprehension 
 print([x for x in a]) 
 ```
+### Script 9 - Output
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
 
 ## Script 10 - The Slice Operator
 And finally the Slice Operator. Praised as a one of its main benefits over more verbose languages, Python's out of the box Slice Operator quickly sections a list, string, or tuple into a subset defined with some clever syntax. Try this out...you will use it a lot:
@@ -154,4 +205,19 @@ print(a[::-1]) # Reverse the list
 print(a[::2]) # Skip by 2 
   
 print(a[::-2]) # Skip by -2 from the back 
+```
+### Script 9 - Output
+```
+# Slice Operator
+... a = [1,2,3,4,5]
+>>> print(a[0:2]) # Choose elements [0-2), upper-bound noninclusive
+[1, 2]
+>>> print(a[0:-1]) # Choose all but the last
+[1, 2, 3, 4]
+>>> print(a[::-1]) # Reverse the list
+[5, 4, 3, 2, 1]
+>>> print(a[::2]) # Skip by 2
+[1, 3, 5]
+>>> print(a[::-2]) # Skip by -2 from the back
+[5, 3, 1]
 ```

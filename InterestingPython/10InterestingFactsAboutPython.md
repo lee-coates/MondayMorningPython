@@ -39,6 +39,8 @@ one, two, three, four, five = func()
   
 print(one, two, three, four, five)
 ```
+### Script 2 - Output
+1 2 3 4 5
 
 ## Script 3 - Else in a For Loop
 In its [Pythonic](https://stackoverflow.com/questions/25011078/what-does-pythonic-mean) way, even for loops are reconsidered, in this case adding an optional else clause:

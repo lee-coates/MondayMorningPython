@@ -153,6 +153,26 @@ if -99999999999999 < n_infinity:
 else: 
     print("Negative Infinity is least") 
 ```
+### Script 8 - Output
+```
+# Postive Infinity
+... p_infinity = float('Inf')
+>>> if 99999999999999 > p_infinity:
+...    print("The number is greater than Postive Infinity!")
+... else:
+...     print("Infinity is greatest")
+...
+Infinity is grestest
+>>>
+# Negative Infinity
+>>> n_infinity = float('-Inf')
+>>> if -99999999999999 < n_infinity:
+...    print("The number is lesser than Negative Infinity!")
+... else:
+...     print("Negative Infinity is least")
+...
+Negative Infinity is least
+```
 
 ## Script 9 - List Comprehensions
 Saving the best for last...these next two are core to the language itself. First, List Comprehensions--say goodbye to multi-line for loops :grin:

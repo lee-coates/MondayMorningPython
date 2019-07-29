@@ -97,7 +97,14 @@ vowels=['a','e','i','o','u']
 for i, letter in enumerate(vowels): 
     print (i, letter) 
 ```
-
+### Script 6 - Output
+```
+0 a
+1 e
+2 i
+3 o
+4 u
+```
 ## Script 7 - Chaining Comparison Operators
 Python is written to be very readable, even when speaking in the language of mathematics. Take comparison operators for example--Humans commonly chain these operations, so why not in our programs too!
 ```

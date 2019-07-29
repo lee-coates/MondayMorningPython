@@ -121,6 +121,20 @@ ans = 5 == i
 print(ans) 
 ```
 
+### Script 7 - Output
+```
+>>> i = 5;
+>>> ans =1 < i < 10
+>>> print(ans)
+True
+>>> ans = 10 > i <= 9
+>>> print(ans)
+True
+>>> ans = 5 == i
+>>> print(ans)
+True
+```
+
 ## Script 8 - Python "Knows" Infinity
 Speaking of handles Mathematics...
 ```
